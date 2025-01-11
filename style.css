@@ -12,12 +12,10 @@
     padding: 10px 15px;
     border-radius: 5px;
 }
-body{
-    margin: auto;
-}
 
 /* Head bannar section */
 .bannar-section{
+    
     background-color: antiquewhite;
     display: flex;
     align-items: center;
