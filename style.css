@@ -52,7 +52,46 @@ height: 320px;
 }
 
 /* The vishon section  */
+.title-vishon{
+    margin: 20px;
+}
+.title-vishon p{
+    color: gray;
+}
 
 .feture-vishon{
     display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+.digital-transform{
+    padding: 32px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    
+}
+.digital-transform button{
+    background-color: coral;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+.green-energy{
+    padding: 32px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.green-energy button{
+    background-color: green;
+    padding: 10px 8px;
+border-radius: 5px;
+}
+.modern-infrastructure{
+    padding: 32px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.modern-infrastructure button{
+   background-color:gray ;
+   padding: 10px 8px;
+   border-radius: 5px;
 }
