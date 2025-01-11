@@ -67,8 +67,10 @@ height: 320px;
 .digital-transform{
     padding: 32px;
     background-color: lightcoral;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
+}
+.digital-transform:hover{
+    background-color: #FFFFFF;
 }
 .digital-transform button{
     background-color: coral;
@@ -80,6 +82,9 @@ height: 320px;
     background-color: lightgreen;
     border-radius: 10px;
 }
+.green-energy:hover{
+    background-color: #FFFFFF;
+}
 .green-energy button{
     background-color: green;
     padding: 10px 8px;
@@ -89,6 +94,9 @@ border-radius: 5px;
     padding: 32px;
     background-color: lightgray;
     border-radius: 10px;
+}
+.modern-infrastructure:hover{
+    background-color: #FFFFFF;
 }
 .modern-infrastructure button{
    background-color:gray ;
@@ -170,6 +178,10 @@ border-radius: 5px;
     border-radius: 10px;
     background-color: bisque;
 }
+.dontet-tk:hover{
+    background-color: chocolate;
+    color: #FFFFFF;
+}
 .donate-money-sec div:nth-child(2){
     background-color: greenyellow;
 }
@@ -208,7 +220,6 @@ border-radius: 5px;
     
 }
 .inpu-button input{
-    text-align: center;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -224,8 +235,41 @@ border-radius: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
-
-
 .inpu-button button:hover {
     background-color: #0056b3;
+}
+
+/* Adding hover button animation*/
+button{
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+/* quot-section */
+.quot-section{
+    position: relative;
+    margin-left: 20px; 
+    background-color: #efeea0;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 20px;
+
+}
+.quot-section img{ 
+    display: block;
+}
+.quot-section p{
+    position: absolute;
+    top: 10px;
+    left: 5px; 
+    color: gray;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+.quot-section span{
+    color: gray;
 }
