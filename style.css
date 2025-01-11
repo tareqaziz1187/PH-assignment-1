@@ -1,0 +1,58 @@
+/* Head title section */
+.head-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head-title h1{
+    color: green;
+}
+.head-title button{
+    border: 1px solid green;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+body{
+    margin: auto;
+}
+
+/* Head bannar section */
+.bannar-section{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    
+    border-radius: 15px;
+   padding: 80px 100px;
+   gap: 64px;
+   margin-bottom: 80px;
+    
+}
+.text-area{
+width: 620px;
+height: 320px;
+}
+.text-area h5{
+    color: gray;
+    
+}
+.text-area button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.img-area img{
+    width: 474px;
+    height: 400px;
+}
+
+/* The vishon section  */
+
+.feture-vishon{
+    display: flex;
+}
