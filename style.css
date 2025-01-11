@@ -140,5 +140,92 @@ border-radius: 5px;
     border-radius: 5px;
     color: white;
     border: none; 
+       
+}
+
+/* Donet Section */
+.donet-section{
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.donet-title-sec p{
+    color: gray;
+}
+.donate-money-sec{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0px;
+}
+.dontet-tk{
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.donate-money-sec div:nth-child(2){
+    background-color: greenyellow;
+}
+.donet-section input{
+    width: 100%;
+    padding: 10px; 
+    font-size: 16px; 
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+.donet-section input::placeholder{
+    text-align: center;
+    color: gray;
+}
+.donet-section button{
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 10px;
+}
+/* newsletter-section */
+.newsletter-section{
+    background-color: #C6E4D6;
+    margin: 20px;
+    border-radius: 10px;
+}
+.newsletter-area{
+    padding: 80px 100px;
+    text-align: center;
+}
+.newsletter-title p{
+    color: gray;
+}
+.inpu-button{
+    display: grid;
+    grid-template-columns: 1fr auto;
     
+}
+.inpu-button input{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.inpu-button button{
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.inpu-button button:hover {
+    background-color: #0056b3;
 }
